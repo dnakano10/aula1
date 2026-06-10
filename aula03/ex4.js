@@ -15,12 +15,10 @@ let notas = alunos.map(aluno => {
         nome: aluno.nome,
         nota: aluno.nota,
         situacao: aluno.nota >= 7 ? "Aprovado" : "Reprovado"
-        };
-    }
-);
+    };
+});
 
 console.log("Situação dos alunos:");
 notas.forEach(aluno => {
     console.log(`- ${aluno.nome}: Nota ${aluno.nota} - ${aluno.situacao}`);
-    }
-);
+});
