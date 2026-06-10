@@ -9,7 +9,7 @@ let produtos = [
     {id: 4, nome: "kit 3 meias", preco: 30}, 
 ];
 
-for (let i = 0; i < produtos.length; i++) { 
+for(let i = 0; i < produtos.length; i++) { 
     console.log(`Produto ${i + 1}: id: ${produtos[i].id}, nome: ${produtos[i].nome}, preço: R$${produtos[i].preco}`); 
 }
 
