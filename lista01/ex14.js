@@ -14,7 +14,7 @@ function reverter(array) {
 
 const arr = [];
 for (let i = 0; i < 5; i++) {
-    arr[i] = input.question(`Digite o ${i + 1}º elemento do array: `);
+    arr[i] = input.question(`digite o ${i + 1} elemento do array: `);
 }
 console.log(`original: ${arr}`);
 console.log(`invertido: ${reverter(arr)}`);
