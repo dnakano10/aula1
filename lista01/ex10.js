@@ -9,4 +9,4 @@ let letra = input.question("Contar a letra: ");
 
 let resultado = contarLetra(txt, letra);
 
-console.log(`A letra "${letra}" aparece ${resultado} vezes.`);
+console.log(`A letra "${letra}" aparece ${resultado} vezes`);

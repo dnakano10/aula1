@@ -1,0 +1,1 @@
+//13 – Range e soma. Escreva uma função range(inicio, fim) que retorne um array com todos os números de inicio até fim (inclusive). Depois escreva soma(array) que some todos os números de um array. Teste: soma(range(1, 10)) deve dar 55.

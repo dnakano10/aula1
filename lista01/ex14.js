@@ -1,0 +1,1 @@
+//14 – Reverter array. Escreva uma função reverter(array) que receba um array e retorne um novo array com os elementos na ordem inversa. Não use o método .reverse() pronto.

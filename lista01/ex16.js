@@ -1,0 +1,1 @@
+//16 – Boletim da turma (Desafio). Crie um array com pelo menos 5 alunos (com nome e nota). Use .map() para gerar um novo array onde cada aluno ganhe a propriedade situacao ("Aprovado" se nota ≥ 7, senão "Reprovado"). Depois, use .filter() para contar quantos foram aprovados e exiba a média geral da turma.
