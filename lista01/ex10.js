@@ -4,9 +4,9 @@ const input = require('readline-sync');
 
 const contarLetra = (texto, letra) => texto.toLowerCase().split(letra.toLowerCase()).length - 1;
 
-let txt = input.question("Digite o texto: ");
-let letra = input.question("Contar a letra: ");
+let txt = input.question("digite o texto: ");
+let letra = input.question("contar a letra: ");
 
 let resultado = contarLetra(txt, letra);
 
-console.log(`A letra "${letra}" aparece ${resultado} vezes`);
+console.log(`a letra "${letra}" aparece ${resultado} vezes`);

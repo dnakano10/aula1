@@ -2,10 +2,10 @@
 
 const input = require('readline-sync');
 
-let base = input.questionFloat("Digite a base do retangulo: ");
-let h = input.questionFloat("Digite a altura do retangulo: ");
+let base = input.questionFloat("digite a base do retangulo: ");
+let h = input.questionFloat("digite a altura do retangulo: ");
 let area = base * h;
 let peri = 2 * (base + h);
 
-console.log(`A área do retangulo é ${area}.`);
-console.log(`O perímetro do retangulo é ${peri}.`);
+console.log(`a área do retangulo é ${area}.`);
+console.log(`o perímetro do retangulo é ${peri}.`);

@@ -6,10 +6,10 @@ function podeVotar(id) {
     return id >= 16;
 }
 
-const id = input.questionInt("Digite a idade: ");
+const id = input.questionInt("digite a idade: ");
 
 if (podeVotar(id)) {
-    console.log("Você pode votar.");
+    console.log("você pode votar.");
 } else {
-    console.log("Você não pode votar.");
+    console.log("você nao pode votar.");
 }

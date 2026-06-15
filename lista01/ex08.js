@@ -2,7 +2,7 @@
 
 const input = require('readline-sync');
 
-let tam = input.questionInt("Digite o tamanho do tabuleiro: ");
+let tam = input.questionInt("digite o tamanho do tabuleiro: ");
 let tabl = "";
 for(let i = 0; i < tam; i++) {
     for(let j = 0; j < tam; j++) {

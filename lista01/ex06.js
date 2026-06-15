@@ -2,7 +2,7 @@
 
 const input = require('readline-sync');
 
-let num = input.questionInt("Digite um numero para iniciar a contagem regressiva: ");
+let num = input.questionInt("digite um numero para iniciar a contagem regressiva: ");
 for(let i = num; i >= 1; i--) {
     console.log(i);
 }

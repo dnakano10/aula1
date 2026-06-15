@@ -8,4 +8,4 @@ for(let i = 1; i <= 50; i++) {
         soma += i;
     }
 }
-console.log(`A soma dos números pares de 1 a 50 é: ${soma}`);
+console.log(`a soma dos números pares de 1 a 50 é: ${soma}`);
