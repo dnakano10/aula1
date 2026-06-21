@@ -9,7 +9,9 @@
 
 const input = require('readline-sync');
 
-let lin = input.questionInt("digite o numero de linhas para o triangulo: ");
-for(let i = 1; i <= lin; i++) {
-    console.log("#".repeat(i));
+const lin = 7; 
+for (let i = 1; i <= lin; i++) {
+  console.log("#".repeat(i));
 }
+
+//tinha feito errado, só percebi qndo o Lucas falou XD
