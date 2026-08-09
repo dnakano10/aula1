@@ -1,0 +1,30 @@
+### listando produtos
+GET http://localhost:3000/produtos
+
+
+### listando produto por id
+GET http://localhost:3000/produtos/1
+
+
+### adicionando novo produto
+POST http://localhost:3000/produtos
+Content-Type: application/json
+
+{
+    "nome": "colar de flores",
+    "preco": 16.90
+}
+
+
+### atualizando produto
+PUT http://localhost:3000/produtos/1
+Content-Type: application/json
+
+{
+    "nome": "rabicó",
+    "preco": 4.50
+}
+
+
+### deletando produto por id
+DELETE http://localhost:3000/produtos/2
